@@ -47,6 +47,7 @@ h1{
 .card{
     margin: 0 15px;
     box-shadow: 0 0 10px #9a9a9a;
+    background-color: var(--fc-color-card);
 }
 
 .card>img{
@@ -56,10 +57,7 @@ h1{
 
 .text{
     float: left;
-    background-color: var(--fc-color-card);
     font-family: var(--fc-font-family);
-    width: calc(100% - 100px);
-    height: 100px;
     padding: 10px 0 10px 15px;
     color: white;
     line-height: calc(80px / 3);
