@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --fc-font-family: 'Fredoka', sans-serif;
+    --fc-color-title: #e53187;
+    --fc-color-card: #0e0e16;
+    --fc-color-mail: #59c2dd;
+}
+
+.container{
+    max-width: 1170px;
+    width: 70%;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    font-family: var(--fc-font-family);
+    color: var(--fc-color-title);
+    margin: 20px 0;
+}
+
+.container > p{
+    text-align: center;
+    font-family: var(--fc-font-family);
+}
